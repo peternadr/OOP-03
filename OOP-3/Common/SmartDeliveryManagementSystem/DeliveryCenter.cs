@@ -5,33 +5,33 @@ public class DeliveryCenter
 
     #region Fields
 
-    private string centerName;
+    private string driverName;
     private Shipment[] shipments;
 
     #endregion
 
     #region properties
-    public string CenterName
+    public string DriverName
     {
         get
         {
-            return centerName;
+            return driverName;
         }
         set
         {
             if (!string.IsNullOrWhiteSpace(value))
             {
-                centerName = value;
+                driverName = value;
             }
         }
     }
     #endregion
 
     #region ctor
-    public DeliveryCenter(string centerName)
+    public DeliveryCenter(string driverName)
     {
         shipments = new Shipment[20];
-        CenterName = centerName;
+        DriverName = driverName;
     }
     #endregion
 

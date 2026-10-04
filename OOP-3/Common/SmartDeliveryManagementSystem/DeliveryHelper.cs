@@ -9,5 +9,6 @@ public class DeliveryHelper
             return;
         }
         shipment.PrintShipment();
+        Console.WriteLine("------------------------------");
     }
 }
