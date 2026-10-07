@@ -21,6 +21,17 @@ namespace OOP_3
 
             #endregion
 
+            #region Sealed Classes 
+            //a)  What is the purpose of the sealed keyword when applied to a class?
+            //The sealed keyword prevents a class from being inherited by another class
+
+            //b)  What is the difference between a sealed class and a sealed method?
+            // A sealed class cannot be inherited, while a sealed method can be overridden in a derived class but cannot be further overridden in any subclass of that derived class
+
+            //c)  Can a sealed method be overridden? Why?
+            // No, a sealed method cannot be overridden becaus it is marked as final in the inheritance hierarchy preventing any further overriding in subclasses
+
+            #endregion
 
             #endregion
 

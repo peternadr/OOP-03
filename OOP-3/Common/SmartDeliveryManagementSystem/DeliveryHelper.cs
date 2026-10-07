@@ -1,6 +1,6 @@
 ﻿namespace DeliverySystem.SmartDeliveryManagementSystem;
 
-public class DeliveryHelper
+static public class DeliveryHelper
 {
     public static void PrintShipment(Shipment shipment)
     {

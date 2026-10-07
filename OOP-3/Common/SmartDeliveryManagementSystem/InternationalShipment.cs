@@ -55,6 +55,10 @@ public class InternationalShipment : Shipment
         DestinationCountry = destinationCountry;
         CustomsFee = customsFee;
     }
+
+    public InternationalShipment() : base()
+    {
+    }
     #endregion
 
     #region Methods
@@ -67,6 +71,10 @@ public class InternationalShipment : Shipment
         Console.WriteLine($"Estimated cost: {EstimatedCost} EGP");
         Console.WriteLine($"Customs Fee: {CustomsFee} EGP");
         Console.WriteLine($"Destination Country: {DestinationCountry}");
+    }
+
+    public virtual void GenerateCustomsReport()
+    {
     }
 
     #endregion

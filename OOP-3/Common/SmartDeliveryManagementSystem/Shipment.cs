@@ -102,6 +102,11 @@ public class Shipment
         DeliveryFee = deliveryFee;
     }
 
+    public Shipment()
+    {
+
+    }
+
 
     #endregion
 
